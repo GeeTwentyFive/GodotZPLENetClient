@@ -21,4 +21,3 @@ func _process(_delta: float) -> void:
 	var received_data: Array = zec.service()
 	for data in received_data:
 		print(data.slice(1).get_string_from_ascii())
-		#print(data[1].get_string_from_ascii())
